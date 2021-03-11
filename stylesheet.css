@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.servcie-main{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: #e2e2e2;
+}
+.container{
+    max-width: 1400px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .left-container{
+    flex-basis: 30%;
+    height: 350px;
+    align-items: center;
+}
+
+.container .right-container{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.container .right-container .text-container{
+    margin-left: 25px;
+    align-items: center;
+}
+.container .right-container .text-container h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.container .right-container .text-container p{
+    line-height: 25px;
+}
